@@ -16,7 +16,10 @@ I used data sets from Kaggle - Results of the matches since 1975 and 2017. I did
 4. Seaborn
 5. Matplotlib
 6. Scikit-learn
+
 I used the ICC ranking as of MAY 2019 dataset and a dataset containing the fixture of the group stages of the tournament. I compared Support Vector Machines, Logistic Regression, Random Forest and K-Nearest Neighbours model.
+
+I had also discussed the basic "Time Series Analysis" prediction methodology along with Holt's Winter Exponential Smoothing methods in Python.
 
 Random Forest was the winner with a training accuracy of 70 % and test accuracy of 67.5%.
 
@@ -25,7 +28,7 @@ pip install -r requirements.txt
 
 jupyter notebook
 
--> According to this model England is likely to win this World Cup.
+-> According to this model England is likely to win the Cricket World Cup.
 
 # Areas of further Improvement
 1. Dataset - to improve dataset you could use 2018 and 2019 years into account by scraping them from the ESPN website and also possibly use the players data to assess the quality of each team player.
